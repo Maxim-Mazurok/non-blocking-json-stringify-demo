@@ -52,6 +52,8 @@ If you're still not convinced that it's non-blocking, provide input yourself:
    Done stringifying! [{"name":"Dr. Monique Parisian","email":"Skyla.West@gmail.com"},{"name":"Raul Mohr","email":"Delpha.
    ```
 
+See also [`blocking.js`](blocking.js) where I use the same approach, but with `JSON.stringify()` and it's indeed blocking, no input is detected during processing.
+
 ## Troubleshooting
 
 If something doesn't work - make sure you're using node/npm versions specified in the `engines` section of `package.json`
