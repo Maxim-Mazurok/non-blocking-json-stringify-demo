@@ -1,0 +1,23 @@
+{
+  "name": "non-blocking-json-stringify-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Maxim Mazurok",
+    "email": "maxim@mazurok.com",
+    "url": "https://maxim.mazurok.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "json-stream-stringify": "^2.0.4"
+  },
+  "engines": {
+    "node": "16.3.0",
+    "npm": "7.15.1"
+  }
+}
